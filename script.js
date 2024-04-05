@@ -92,7 +92,7 @@ function admin(event) {
                 <td>Admin</td>
             </tr>
             <tr>
-                <td>Lov</td>
+                <td>DV</td>
                 <td>Admin</td>
             </tr>
             <tr>
