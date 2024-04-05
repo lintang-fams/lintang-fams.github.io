@@ -1,0 +1,142 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font-family: 'Montserrat', sans-serif; 
+  background-image: url('img/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  opacity: 100%;
+  z-index: 0;
+}
+
+.content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 50px);
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+}
+
+.anggotaFamilyTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.anggotaFamilyTable th,
+.anggotaFamilyTable td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.anggotaFamilyTable th {
+  background-color: #f2f2f2;
+  color: black;
+  font-weight: bold;
+}
+
+.aboutDescriptionContent p,
+.anggotaFamilyContent p {
+  font-size: 14px;
+  text-align: left;
+  max-width: 100%;
+}
+
+#aboutDescription,
+#anggotaFamily,
+#audioContent {
+  max-width: 100%;
+}
+
+#audioContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-container img {
+  width: calc(50% - 20px); 
+  max-width: 100%; 
+  height: auto; 
+  border: 1px solid #ffffff; 
+  transition: transform 0.3s ease-in-out; 
+}
+
+.gallery-container img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-section {
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #222;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a i {
+  font-size: 24px;
+}
+
+.navbar a:hover {
+  color: #ffc107;
+}
+
+.navbar a.active,
+.navbar a:hover {
+  color: #ffc107;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 5px 0;
+  }
+  
+  #welcomeText {
+    font-size: 4vw;
+  }
+}
+
+.show {
+  opacity: 1;
+}
