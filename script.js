@@ -23,8 +23,8 @@ function about() {
       `
             <h3> Tentang Lintang : </h3>
             <div class="aboutDescriptionContent">
-                <p>Lintang didirikan pada tanggal 5 September 2022, dengan 60% anggota berasal dari migrasi NET Family, dan Je sebagai ketua. </p>
-                <p>Devi yang saat ini menjabat sebagai admin, adalah orang yg memiliki ide untuk mengunakan nama lintang sebagai family di lismet</p>
+                <p>Lintang didirikan pada tanggal 5 September 2022</p>
+                <p>Devi (Dv) adalah orang yg memiliki ide untuk mengunakan nama lintang sebagai family di lismet</p>
                 <p>Lintang dibuat sebagai respons terhadap hiruk-pikuk yang ada di aplikasi Litmatch, bahkan mungkin tidak peduli dengan semua aturan yg ada di Litmatch</p>
                 <p>Tidak ada aturan pendaftaran yang kaku, dan tidak diwajibkan menggunakan title namun anggota dihimbau untuk tetap menjaga kewajiban solat</p>
             </div>
