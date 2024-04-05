@@ -1,7 +1,7 @@
 function home(event) {
   event.preventDefault();
   $("#welcomeText")
-    .text("Selamat datang di website resmi Lintang Family")
+    .text("Official page of Lintang Family")
     .show();
   $(".gallery-container").hide();
   $(".content audio").remove();
